@@ -1,0 +1,27 @@
+# Global Python and IDE caches
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+
+# Block intermediate NumPy data matrices
+*.npy
+*.dat
+
+# Block specific scratch files in the analysis directory
+analysis/step*.py
+analysis/sing_step*.py
+analysis/why.py
+analysis/ok.py
+analysis/save.py
+analysis/sanity.py
+analysis/diag.py
+analysis/visualize1.py
+analysis/vizgem.py
+analysis/fin3.py
+analysis/fin4.py 
+analysis/genre_wise.py
+
+# Ignore Windows/WSL duplicate network tags
+*:Zone.Identifier

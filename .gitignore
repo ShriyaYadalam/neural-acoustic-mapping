@@ -25,3 +25,4 @@ analysis/genre_wise.py
 
 # Ignore Windows/WSL duplicate network tags
 *:Zone.Identifier
+analysis/*.html linguist-vendored
